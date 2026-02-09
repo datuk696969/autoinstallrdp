@@ -32,7 +32,7 @@ echo -e "${MAGENTA} ┌───────────────────
 case $pilihan in
     1)
         echo -e "${MAGENTA} │${NC} ${CYAN}Memulai instalasi RDP untuk DigitalOcean...${NC} ${MAGENTA}│ ${NC}"
-        wget -q https://raw.githubusercontent.com/ZyrexDiandra/warkopdigital-rdp/main/stdo.sh && bash stdo.sh
+        wget -q https://raw.githubusercontent.com/datuk696969/autoinstallrdp/main/stdo.sh && bash stdo.sh
         ;;
     *)
         echo -e "${MAGENTA} │${NC} ${RED}Pilihan tidak valid. Harap pilih angka 1.${NC} ${MAGENTA}│ ${NC}"
