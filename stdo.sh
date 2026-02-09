@@ -49,7 +49,7 @@ echo -e "${MAGENTA} ┌───────────────────
 echo -e "${MAGENTA} │${NC}              ${YELLOW}Server Information${NC}                ${MAGENTA}│ ${NC}"
 echo -e "${MAGENTA} ├────────────────────────────────────────────────────────────────────────────────────────┤ ${NC}"
 echo -e "${MAGENTA} │${NC} ${CYAN}Version       : 1.0 WD${NC}                            ${MAGENTA}│ ${NC}"
-echo -e "${MAGENTA} │${NC} ${CYAN}Creator       : Warkop Digital${NC}                   ${MAGENTA}│ ${NC}"
+echo -e "${MAGENTA} │${NC} ${CYAN}Creator       : Datuk${NC}                   ${MAGENTA}│ ${NC}"
 echo -e "${MAGENTA} │${NC} ${CYAN}Client Name   : Windows RDP${NC}                      ${MAGENTA}│ ${NC}"
 echo -e "${MAGENTA} │${NC} ${CYAN}Provider      : DigitalOcean${NC}                     ${MAGENTA}│ ${NC}"
 echo -e "${MAGENTA} │${NC} ${CYAN}Expiry In     : ${remaining_days} days remaining${NC}               ${MAGENTA}│ ${NC}"
@@ -81,7 +81,7 @@ case $pilihan in
         echo -e "${CYAN}Memulai instalasi Windows 2016...${NC}"
         ;;
     3)
-        PILIHOS="https://sourceforge.net/projects/nixpoin/files/windows2019.gz"
+        PILIHOS="https://sourceforge.net/projects/nixpoin/files/windows2019DO.gz"
         echo -e "${CYAN}Memulai instalasi Windows 2019...${NC}"
         ;;
     4)
@@ -93,7 +93,7 @@ case $pilihan in
         echo -e "${CYAN}Memulai instalasi Windows 10...${NC}"
         ;;
     6)
-        PILIHOS="https://sourceforge.net/projects/nixpoin/files/windows11.gz"
+        PILIHOS="https://sourceforge.net/projects/windows-gz/files/windows11.gz"
         echo -e "${CYAN}Memulai instalasi Windows 11...${NC}"
         ;;
     *)
